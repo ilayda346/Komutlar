@@ -27,21 +27,26 @@ width= "400px" height="90px" style="border:10px solid black; display: block; mar
  ***
 
  # <h1 style ="color: #2463f3 ;">***cd*** 
- <span style="color:silver;">*cd komutu,en temel komutlardandır ve kullanıcıların dizinler arsında geçiş yapmasını sağlar.*
+ <span style="color:silver;">*cd komutu,en temel komutlardandır ve kullanıcıların dizinler arsında geçiş yapmasını sağlar.Esneklik  ve dosya sisteminde hızlıca gezinmeyi sağlar.*
  # <h1 style ="color: #2463f3 ;">***cd..***
+ *             cd ..\.. -> Birden fazla üst dizine geçmeye yarar.Mevcut dizinden iki üst seviye anlamına gelir.
  <span style="color:silver;">*.. sembolü "bir üst dizin" anlamına gelir ve bulunduğumuz dizinden üst seviyeye geçiş yapmayı sağlar.*
  # <h1 style ="color: #2463f3 ;">***cd.***
- <span style="color:silver;">*Geçerli dizine tekrar gitmek için kullanılır.</span>*<br>
+ <span style="color:silver;">*Geçerli dizine tekrar gitmek için kullanılır.*</span><br>
+ # <h1 style ="color: #2463f3 ;"> cd \
+ *Kök dizine gitmeyi sağlar.*
+ # <h1 style ="color: #2463f3 ;"> ***cd*** *,? ***(joker karakter)***
+ *             cd C:\klasör\A* -> Bu komut,A ile başlayan ilk alt klasöre gider.cd A? komutu,mevcut dizin içinde A ile başlayan ve ardından yalnızca bir karakter gelen bir dizine geçer.
 
- ![görsel4](./images/Ekran%20görüntüsü%202024-11-16%20011630.png)
+![görsel4](./images/Ekran%20görüntüsü%202024-11-16%20011630.png)
  ***
  
  # <h1 style ="color: #2463f3;">***netsh*** 
- <span style="color:silver;">*Ağ yapılandırmalarını yönetmek için kullanılır.<br>
+ <span style="color:silver;">*Ağ yapılandırmalarını yönetmek için kullanılır.*<br>
  *        netsh>wlan show profile
 Bilgisayardaki tüm ağ arayüzlerini ve durumları listeler.<br>
 *         netsh> wlan show profile key=clear
-Daha önce bağlanılan bir Wİ-Fİ ağının şifresini gösterir.*<br></span>
+Daha önce bağlanılan bir Wİ-Fİ ağının şifresini gösterir.<br></span>
 
 ![görsel5](./images/Ekran%20görüntüsü%202024-11-12%20004539.png)
 ***
@@ -86,7 +91,7 @@ Daha önce bağlanılan bir Wİ-Fİ ağının şifresini gösterir.*<br></span>
 
 # <h1 style ="color: #2463f3 ;"> ***ren*** 
 <span style="color:silver;">*Dosyaların yada klasörlerin eski adını yeni adla değiştirmeye yarayan komuttur.Konumu değiştirmez,sadece adını değiştirir.*<br></span>
-
+*                  ren eskiad.txt yeniad.txt
 ![görsel12](./images/Ekran%20görüntüsü%202024-11-13%20003042.png)
 ***
 
@@ -129,7 +134,7 @@ Daha önce bağlanılan bir Wİ-Fİ ağının şifresini gösterir.*<br></span>
 
 # <h1 style ="color: #2463f3 ;"> ***shutdown***
 <span style="color:silver;">*Bilgisayarın kapanması yada yeniden başlatılması için kullanılan komuttur.Ayrıca kapanma süresini ayarlamak da mümkündür.*<br></span>
-
+*        shutdown [seçenekler] --> /s -> bilgisayarı kapatır. /r -> bilgisayarı yeniden başlatır./t -> işlem için gecikme süresi belirler. /f -> açık programları zorla kapatır. /p -> kullanıcıdan onay almadan bilgisayarı hemen kapatır.
 ![görsel19](./images/Ekran%20görüntüsü%202024-11-15%20033211.png)
 ***
 
